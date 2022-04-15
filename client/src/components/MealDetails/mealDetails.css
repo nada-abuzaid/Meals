@@ -1,0 +1,98 @@
+.mealDetails {
+  width: 90%;
+  margin: 1.9rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Montserrat', sans-serif;
+  align-items: start;
+}
+
+.main-details {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 3px solid #ffffff;
+  border-radius: 70px;
+  opacity: 1;
+  backdrop-filter: blur(10px);
+  margin: 50px;
+  height: 100%;
+  min-height: 84vh;
+}
+
+.DataSide {
+  width: 40%;
+  margin: 25px 0;
+  text-align: left;
+}
+
+.mealDetails .meal-imgd {
+  width: 60%;
+}
+
+.mealDetails img {
+  max-width: 100%;
+  margin-top: 0;
+}
+
+.meal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.meal-priced {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-right: 25px;
+}
+
+.meal-price span {
+  color: var(--main);
+}
+
+.meal-named {
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.meal-categoryd {
+  width: fit-content;
+  padding: 5px 20px;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+.meal-descriptiond {
+  color: var(--black);
+  padding: 3px;
+  border-radius: 50px;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin: auto;
+  opacity: 0.5;
+  text-align: justify;
+}
+
+.add {
+  width: 120px;
+  height: 47px;
+  background: var(--main) 0% 0% padding-box;
+  border-radius: 45px;
+  border: none;
+  color: var(--white);
+  font-weight: 900;
+  margin-top: 20px;
+  transition: 0.4s all ease-in-out;
+}
+
+.add:hover {
+  background-color: var(--white);
+  border: 2px solid var(--main);
+  color: var(--main);
+  font-weight: 700;
+}
+
+.back-home{
+  margin-left: 10px;
+}

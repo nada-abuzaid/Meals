@@ -1,0 +1,39 @@
+.filter-section {
+  margin-top: 50px;
+  width: 100%;
+  height: 100px;
+  background-color: var(--white);
+}
+
+.category {
+  background-color: #e8fad2;
+  border: none;
+  padding: 20px 25px;
+  margin: 10px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.price {
+  background-color: #e8fad2;
+  border: none;
+  padding: 0px 25px;
+  margin: 10px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  height: 60px;
+}
+
+.category:hover {
+  background-color: var(--main);
+  color: var(--white);
+  font-weight: 700;
+}
+
+.active {
+  background-color: var(--main);
+  color: var(--white);
+  font-weight: 700;
+}

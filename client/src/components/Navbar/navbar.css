@@ -1,0 +1,98 @@
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+}
+
+.rightSide {
+  margin: 25px 0;
+}
+
+/* Logo Style*/
+.logo {
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--black);
+  margin: 25px 0;
+}
+
+.logo-span {
+  background-color: var(--main);
+  color: var(--white);
+  padding: 3px;
+  border-radius: 50px;
+  margin-right: 2px;
+  font-size: 23px;
+}
+
+/* Search Input Style */
+.search {
+  position: relative;
+  width: 40%;
+}
+
+input.search-input {
+  background: #f5f5f5;
+  border-radius: 12px;
+  color: #495057;
+  font-size: 0.9rem;
+  font-weight: 400;
+  height: 50px;
+  padding-left: 45px;
+  padding-right: 10px;
+  width: 400px;
+  border: none;
+}
+
+input.search-input:focus {
+  border: 1px solid var(--main);
+}
+
+/* Button Style */
+.btn {
+  width: 138px;
+  height: 43px;
+  background: var(--main) 0% 0% padding-box;
+  border-radius: 45px;
+  border: none;
+  color: var(--white);
+  padding: 10px;
+  width: 100px;
+  font-weight: 900;
+  margin: 0.2rem;
+}
+
+.btn:hover {
+  background-color: var(--white);
+  border: 2px solid var(--main);
+  color: var(--main);
+  font-weight: 700;
+}
+
+/* Cart Icon Style */
+.cart {
+  background-color: #f5f5f5;
+  justify-content: center;
+  width: 50px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 12px 0px;
+}
+
+.cart-basket {
+  font-size: 0.6rem;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  color: #fff;
+  background-color: var(--main);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

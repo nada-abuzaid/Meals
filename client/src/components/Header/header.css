@@ -1,0 +1,45 @@
+.header {
+  width: 90%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 50px;
+}
+
+.main-text {
+  width: 85%;
+  padding: 10px;
+}
+
+.main-text p {
+  font-weight: bold;
+  color: black;
+  font-size: 2.6rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.main-text .header-text {
+  margin-top: 40px;
+}
+
+.main-text p > .order {
+  color: var(--main);
+}
+
+.main-text p > .what {
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.main-text .desc-service {
+  color: var(--icon);
+  font-size: 0.7rem;
+  width: 80%;
+}
+
+.main-img .img {
+  width: 130%;
+  margin-left: -60px;
+  margin-top: -20px;
+}

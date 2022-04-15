@@ -1,0 +1,96 @@
+.cards {
+  grid-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  place-items: start;
+  margin: 50px;
+}
+
+.card {
+  background: #f2f2f2;
+  border-radius: 20px;
+  height: 250px;
+  padding: 15px;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  border: 2px solid #f5f3f3;
+  border-radius: 30px;
+  opacity: 1;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-bottom: 60px;
+}
+
+.meal-img {
+  margin-top: -60px;
+  border-radius: 50%;
+  width: 140px;
+  height: 130px;
+  object-fit: cover;
+}
+
+.meal-category {
+  opacity: 0.5;
+  border: 1px solid var(--icon);
+  border-radius: 30px;
+  padding: 5px;
+  font-size: 0.7rem;
+  width: 40%;
+  margin: 10px auto;
+}
+
+.price-cart {
+  border-top: 1px solid var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 7px 5px;
+}
+
+.meal-price {
+  font-weight: bold;
+}
+
+.meal-price span {
+  color: var(--main);
+}
+
+.meal-btn {
+  border: 1px solid var(--background);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.meal-btn:hover,
+.control-btn:hover {
+  background-color: #cee6b0;
+}
+
+.more-btn {
+  background-color: none;
+  border: none;
+  color: var(--main);
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 2px;
+}
+
+.control-btn {
+  border: 1px solid var(--background);
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
